@@ -1,4 +1,3 @@
-aiogram>=3.0.0
-openai-whisper==20231117
-gTTS==2.5.1
-ffmpeg-python==0.2.0
+aiogram>=3.0
+openai-whisper
+gTTS

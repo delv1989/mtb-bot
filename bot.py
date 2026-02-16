@@ -16,8 +16,8 @@ if not BOT_TOKEN:
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-# Загружаем модель Whisper (tiny для Railway — меньше памяти)
-model = whisper.load_model("tiny")
+# Загружаем модель Whisper (base ~150MB)
+model = whisper.load_model("base")
 
 print("✅ Бот запущен! Модель Whisper загружена.")
 
